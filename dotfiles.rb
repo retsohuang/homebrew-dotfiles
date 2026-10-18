@@ -1,9 +1,9 @@
 class Dotfiles < Formula
   desc "Provisioning orchestrator for Retso's dotfiles (sync and bare-machine setup)"
   homepage "https://github.com/retsohuang/homebrew-dotfiles"
-  version "0.2.10"
+  version "0.2.11"
   url "https://github.com/retsohuang/homebrew-dotfiles/releases/download/v#{version}/dotfiles-darwin-arm64.tar.gz"
-  sha256 "ae7bfeda4f1c32c349839c6119a07265ea39b5202acdda45f7c8e0084363e3b5"
+  sha256 "70537abf2b02c64879d3ce38fe16250eea078ed2112aa550cbb6de67cf9deda7"
 
   def install
     bin.install "dotfiles"
