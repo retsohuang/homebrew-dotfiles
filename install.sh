@@ -3,7 +3,7 @@
 #
 #   curl -fsSL https://raw.githubusercontent.com/retsohuang/homebrew-dotfiles/main/install.sh | bash
 #
-# Binary only. `dotfiles setup` — the profile pick, gh auth and cross-profile
+# Binary only. `dotfiles sync` — the profile pick, gh auth and cross-profile
 # confirmation — stays outside this script so it keeps a real stdin.
 # Hand-maintained: the release workflow never writes this file.
 
@@ -41,9 +41,9 @@ main() {
   brew install retsohuang/dotfiles/dotfiles </dev/null
 
   if [[ "$path_added" -eq 1 ]]; then
-    printf '\nnow open a new terminal and run: dotfiles setup\n'
+    printf '\nnow open a new terminal and run: dotfiles sync\n'
   else
-    printf '\nnow run: dotfiles setup\n'
+    printf '\nnow run: dotfiles sync\n'
   fi
 }
 

@@ -11,7 +11,7 @@ arm64 macOS binary, published by the release workflow in the source repository.
 curl -fsSL https://raw.githubusercontent.com/retsohuang/homebrew-dotfiles/main/install.sh | bash
 ```
 
-Then run `dotfiles setup`.
+Then run `dotfiles sync`.
 
 Already have Homebrew? `brew install retsohuang/dotfiles/dotfiles` installs the binary
 directly.
