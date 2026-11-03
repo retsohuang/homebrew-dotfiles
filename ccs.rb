@@ -1,9 +1,9 @@
 class Ccs < Formula
   desc "Multi-provider profile manager for Claude Code (fork sharing ~/.claude/rules)"
   homepage "https://github.com/retsohuang/ccs"
-  url "https://github.com/retsohuang/ccs/archive/refs/tags/v8.10.0-retso.5.tar.gz"
-  version "8.10.0-retso.5"
-  sha256 "a72b479157a9486cad9cddc3baf49ba3fa0a958d3530ceb023f1937c42dbaea8"
+  url "https://github.com/retsohuang/ccs/archive/refs/tags/v8.10.0-retso.6.tar.gz"
+  version "8.10.0-retso.6"
+  sha256 "6125d59e0edc50dc6b4999d0d92f45021c729c6fc8564ac723ed1e3739eccdb2"
   license "MIT"
 
   depends_on "bun" => :build
